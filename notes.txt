@@ -1,0 +1,33 @@
+Color Scheme:
+#E8D7F1 Lavender Mist
+#D3BCCC Thistle
+#A167A5 Pearly Purple
+#4A306D Imperial
+#0E273C Yankees Blue
+
+Patch 1.2 (total work time: 4 hours)
+- begin filling out About page with information about myself
+- organize existing code and touch up nav bar
+- frontpage, me with inspiring quotations
+- begin implementing Optima font
+-----------------------------------------------------------------------
+Patch 1.3 (Apr 28) (total work time: 3 hours)
+- added a picture of myself onto the main page
+    - this turned into 3 pictures, like the contrast and looks better than 4
+    - on hover, ease in and out
+- fix h1 tag, moves slightly to the side whenever images are hovered over
+- will be adding three slots for text to be included
+- adding resizable window options
+- embed podcast links
+
+Patch 1.4 (Apr 29) (total work time: 4.8 hours)
+- turned hovering images into a slideshow (with JS)
+  - added borders
+  - aligned everything
+- added /allchat podcast link and aligned both
+- h1 hugs the most it can to the top and looks good
+- I want to add text on the sides of the slideshow but can't seem to align it correctly
+- created About.html, contact.html, and portfolio.html
+- learn to run sass, should be simple
+  - download node.js on desktop at home, follow instructions on tab in portfolio folder
+- figure out how  to integrate github with atom for real this time
