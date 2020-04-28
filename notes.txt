@@ -11,7 +11,7 @@ Patch 1.2 (total work time: 4 hours)
 - frontpage, me with inspiring quotations
 - begin implementing Optima font
 -----------------------------------------------------------------------
-Patch 1.3 (Apr 28) (total work time: 3 hours)
+Patch 1.3 (Apr 27) (total work time: 3 hours)
 - added a picture of myself onto the main page
     - this turned into 3 pictures, like the contrast and looks better than 4
     - on hover, ease in and out
@@ -20,7 +20,7 @@ Patch 1.3 (Apr 28) (total work time: 3 hours)
 - adding resizable window options
 - embed podcast links
 
-Patch 1.4 (Apr 29) (total work time: 4.8 hours)
+Patch 1.4 (Apr 28) (total work time: 4.8 hours)
 - turned hovering images into a slideshow (with JS)
   - added borders
   - aligned everything
@@ -31,3 +31,9 @@ Patch 1.4 (Apr 29) (total work time: 4.8 hours)
 - learn to run sass, should be simple
   - download node.js on desktop at home, follow instructions on tab in portfolio folder
 - figure out how  to integrate github with atom for real this time
+
+Patch 1.5 (Apr 28th: day)
+- work on the about.html page
+  - added stuff to write About
+  - finish writing about stuff
+  - 
