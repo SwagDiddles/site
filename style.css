@@ -176,6 +176,61 @@ img {
   border: 4px outset #A167A5;
 }
 
+p, ul {
+  font-size: 14px;
+}
+
+ul {
+  align-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.child1, .child2 {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.child3 {
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.child4, .child5 {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.child1, .child2, .child3, .child4, .child5 {
+  flex-wrap: wrap;
+}
+
+#sw {
+  float: right;
+  /*margin-right: 23%;*/
+}
+
+#lang {
+  float: left;
+  /*margin-left: 23%;*/
+}
+
 .podcast {
   width: 50%;
   height: auto;

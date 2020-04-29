@@ -36,4 +36,15 @@ Patch 1.5 (Apr 28th: day)
 - work on the about.html page
   - added stuff to write About
   - finish writing about stuff
-  - 
+
+Patch 1.6 (Apr 29th: morning)
+- format the about page
+  - add Software (github)
+  - added a couple already
+  - finish adding Introduction and Work Experience when on desktop
+- make sure everything on about.html can flex
+- contact alert("for hire!")
+- find a place for Podcast Stats
+  - scrolling facts maybe?
+  - i.e., "Did you know?"
+- i went absolutely dummy during this time, good job
