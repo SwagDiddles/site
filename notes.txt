@@ -48,3 +48,8 @@ Patch 1.6 (Apr 29th: morning)
   - scrolling facts maybe?
   - i.e., "Did you know?"
 - i went absolutely dummy during this time, good job
+
+Patch 1.7 (Apr 29th: Day)
+- slowly push out color scheme
+- add buttons to download Resume
+- 

@@ -177,7 +177,8 @@ img {
 }
 
 p, ul {
-  font-size: 14px;
+  font-size: 18px;
+  padding: 25px;
 }
 
 ul {
@@ -186,6 +187,7 @@ ul {
 
 h2 {
   text-align: center;
+  font-size: 36px;
 }
 
 .child1, .child2 {
@@ -193,42 +195,76 @@ h2 {
   padding: 20px;
   width: 50%;
   height: auto;
-  display: block;
+  display: inline-block;
   margin-left:auto;
   margin-right:auto;
 }
 
-.child3 {
+.second-row {
   width: 100%;
   height: auto;
-  display: block;
-  text-align: center;
+  display: inline-block;
   margin-left:auto;
   margin-right: auto;
 }
 
-.child4, .child5 {
-  float: left;
-  padding: 20px;
-  width: 50%;
+.third-row{
+  width: 100%;
   height: auto;
-  display: block;
+  padding: 5px;
+  display: inline-block;
   margin-left:auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
-.child1, .child2, .child3, .child4, .child5 {
-  flex-wrap: wrap;
+.child4 {
+  float: right;
+  padding: 10px;
+  width: 50%;
+  height: auto;
+}
+
+.child5 {
+  float: right;
+  padding: 10px;
+  width: 50%;
+  height: auto;
+}
+
+#dec {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.job1 {
+  float:left;
+  width: 25%;
+  height: auto;
+  padding: 20px;
+}
+
+.job2 {
+  float:left;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+}
+
+.job3 {
+  float:right;
+  width: 25%;
+  height: auto;
+  padding: 20px;
 }
 
 #sw {
   float: right;
-  /*margin-right: 23%;*/
+  margin-right: 23%;
 }
 
 #lang {
   float: left;
-  /*margin-left: 23%;*/
+  margin-left: 23%;
 }
 
 .podcast {
