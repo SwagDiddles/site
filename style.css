@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 * {
   font-family: 'Manrope', sans-serif;
   font: Optima;
@@ -198,7 +201,11 @@ p, ul {
 }
 
 ul {
-  align-content: center;
+  /*align-content: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    display: inline-block;
 }
 
 h2 {
@@ -234,17 +241,19 @@ h2 {
 }
 
 .child4 {
-  /*float: right;*/
+  float: right;
   padding: 10px;
   width: 50%;
   height: auto;
+  display: inline-block;
 }
 
 .child5 {
-  /*float: right;*/
+  float: left;
   padding: 10px;
   width: 50%;
   height: auto;
+  display: inline-block;
 }
 
 #dec {
@@ -254,21 +263,21 @@ h2 {
 
 .job1 {
   float: left;
-  width: 25%;
+  width: 34%;
   height: auto;
   padding: 20px;
 }
 
 .job2 {
   float: left;
-  width: 50%;
+  width: 32%;
   height: auto;
   padding: 20px;
 }
 
 .job3 {
   float: right;
-  width: 25%;
+  width: 34%;
   height: auto;
   padding: 20px;
 }
@@ -293,15 +302,137 @@ h2 {
   margin-right: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+
+h4 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
 /*divs; allow stacking when screen size is diminished*/
 /*image resizing*/
 /*podcast players; resize those as well*/
 @media screen and (max-width: 1020px) {
 
-  .child1, .child2, .child4, .child5 {
+  .child1, .child2, .child5 {
     width: auto;
     margin: 5px auto;
   }
+
+  .child4 {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+}
 
   .child5 {
     display: inline-block;
@@ -318,13 +449,16 @@ h2 {
   }
 
   ul {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40px;
-    display: inline-block;
+    width: 25%;
+    list-style: circle;
+    padding-top: 20px;
   }
 
   p, li {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .podcast {
+    width: 100%;
   }
 }
