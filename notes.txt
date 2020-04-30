@@ -57,3 +57,6 @@ Patch 1.7 (Apr 30th: Early Morning)
   - not gonna lie, mobile looks better than regular; fix that
 - think of potential logo placement
 - add links to social media (with icons) on contact page underneath business card
+  - make LinkedIn profile, UpWork profile
+- learn ReactJS
+- 
