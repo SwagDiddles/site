@@ -49,7 +49,11 @@ Patch 1.6 (Apr 29th: morning)
   - i.e., "Did you know?"
 - i went absolutely dummy during this time, good job
 
-Patch 1.7 (Apr 29th: Day)
+Patch 1.7 (Apr 30th: Early Morning)
 - slowly push out color scheme
 - add buttons to download Resume
-- 
+- begin thinking of optimizing the site for mobile devices
+  - have the starting point, just add different class names and what not to adjust
+  - not gonna lie, mobile looks better than regular; fix that
+- think of potential logo placement
+- add links to social media (with icons) on contact page underneath business card
