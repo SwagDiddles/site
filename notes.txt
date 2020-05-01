@@ -61,3 +61,10 @@ Patch 1.7 (Apr 30th: Early Morning)
   - adding two zeros at the end of any hexcode will turn it transparent
 - learn ReactJS
 - organized lists in mobile view, fix in regular view
+
+Patch 1.8 (May 1st)
+- feedback from Ian
+  - think of different picture slides to add
+  - visual on the front page
+  - add blocks around the walls of text on the about page
+  - color scheme; implement it!
