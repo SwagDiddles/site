@@ -200,13 +200,12 @@ p, ul {
   padding: 25px;
 }
 
-ul {
-  /*align-content: center;*/
+/*ul {
     margin-left: auto;
     margin-right: auto;
     width: 40px;
     display: inline-block;
-}
+}*/
 
 h2 {
   text-align: center;
@@ -320,10 +319,7 @@ h4 {
 ._14 {
     font-size: 1.4em;
 }
-ul {
-    padding:0;
-    list-style: none;
-}
+
 .footer-social-icons {
     width: 350px;
     display:block;
@@ -334,6 +330,9 @@ ul {
 }
 ul.social-icons {
     margin-top: 10px;
+    padding:0;
+    list-style: none;
+    text-align: center;
 }
 .social-icons li {
     vertical-align: top;
@@ -351,7 +350,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: #322f3000;
 }
 .fa-facebook:hover {
     background-color: #3d5b99;
@@ -363,22 +362,22 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: #322f3000;
 }
 .fa-twitter:hover {
     background-color: #00aced;
 }
-.fa-rss {
+.fa-instagram {
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: #322f3000;
 }
-.fa-rss:hover {
-    background-color: #eb8231;
+.fa-instagram:hover {
+    background-color: #E1306C;
 }
 .fa-youtube {
     padding:10px 14px;
@@ -387,7 +386,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: #322f3000;
 }
 .fa-youtube:hover {
     background-color: #e64a41;
@@ -399,7 +398,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: #322f3000;
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
@@ -411,7 +410,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: #322f3000;
 }
 .fa-github:hover {
     background-color: #5a32a3;
@@ -448,10 +447,17 @@ ul.social-icons {
     margin: 5px auto;
   }
 
-  ul {
+  #lang, #sw {
     width: 25%;
     list-style: circle;
     padding-top: 20px;
+  }
+
+  ul.social-icons {
+      margin-top: 10px;
+      padding:0;
+      list-style: none;
+      text-align: center;
   }
 
   p, li {

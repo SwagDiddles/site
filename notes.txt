@@ -57,5 +57,7 @@ Patch 1.7 (Apr 30th: Early Morning)
 - think of potential logo placement
 - add links to social media (with icons) on contact page underneath business card
   - make LinkedIn profile, UpWork profile
+  - instead of RSS, do instagram
+  - adding two zeros at the end of any hexcode will turn it transparent
 - learn ReactJS
 - organized lists in mobile view, fix in regular view
