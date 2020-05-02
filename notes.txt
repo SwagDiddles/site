@@ -69,3 +69,5 @@ Patch 1.8 (May 1st)
   - add blocks around the walls of text on the about page
   - color scheme; implement it!
   - fix about page
+
+Patch 1.9 (work on mobile optimization)
