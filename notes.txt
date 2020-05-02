@@ -68,3 +68,4 @@ Patch 1.8 (May 1st)
   - visual on the front page
   - add blocks around the walls of text on the about page
   - color scheme; implement it!
+  - fix about page
