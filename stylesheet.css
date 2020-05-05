@@ -31,10 +31,7 @@ h4 {
 ._14 {
     font-size: 1.4em;
 }
-/*ul {
-    padding:0;
-    list-style: none;
-}*/
+
 .footer-social-icons {
     width: 350px;
     display:block;
@@ -143,7 +140,7 @@ ul.social-icons {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #A167A5;
+  background-color: #D3BCCC;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -153,7 +150,7 @@ ul.social-icons {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #A167A5;
   display: block;
   transition: 0.5s;
   }
@@ -255,3 +252,9 @@ ul.social-icons {
       margin-left: 1rem; }
       .card__cta p > .space {
         margin-left: 2rem; }
+
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 25px;
+        }

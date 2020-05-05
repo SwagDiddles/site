@@ -356,6 +356,7 @@ h4 {
 }
 .social-icon {
     color: #fff;
+
 }
 ul.social-icons {
     margin-top: 10px;
@@ -371,6 +372,7 @@ ul.social-icons {
 .social-icons a {
     color: #fff;
     text-decoration: none;
+    font-size: 25px;
 }
 .fa-facebook {
     padding:10px 14px;
@@ -495,5 +497,62 @@ ul.social-icons {
 
   .podcast {
     width: 100%;
+  }
+
+  .sidenav a {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .child1, .child2, .child5 {
+    width: auto;
+    margin: 5px auto;
+  }
+
+  .child4 {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+}
+
+  .child5 {
+    display: inline-block;
+  }
+
+  .second-row, .third-row {
+    position: relative;
+    width: auto;
+  }
+
+  .job1, .job2, .job3 {
+    width: auto;
+    margin: 5px auto;
+  }
+
+  #lang, #sw {
+    width: 25%;
+    list-style: circle;
+    padding-top: 20px;
+  }
+
+  ul.social-icons {
+      margin-top: 10px;
+      padding:0;
+      list-style: none;
+      text-align: center;
+  }
+
+  p, li {
+    font-size: 14px;
+  }
+
+  .podcast {
+    width: 100%;
+  }
+
+  .sidenav a {
+    font-size: 25px;
   }
 }
